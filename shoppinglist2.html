@@ -1,0 +1,316 @@
+<!doctype html>
+<html>
+  
+  <head>
+    
+    <!--Nonvisible elements in this section -->
+    
+    <!-- CSS Goes here in STYLE tags -->
+    
+    <style>
+      
+      *{
+        
+        margin: 0;
+        
+        padding: 0;
+        
+        box-sizing: border-box;
+      }
+      
+      header{
+        
+        color:black;
+        
+        background:white;
+        
+        padding: 1rem;
+        
+        text-align: center;
+      }
+      
+      nav {
+        
+        color:white;
+        
+        background:black;
+        
+        padding: 1rem;
+        
+        font-size:1.15rem;
+      }
+      
+      footer{
+        
+        color:white;
+        
+        background:black;
+        
+        padding: 1rem;
+        
+        min-height:15vh;
+      }
+      
+      .container{
+        
+        color:black;
+        
+        background:#b6d1d4;
+        
+        padding: 1rem;
+        
+        min-height:80vh;
+        
+        width:80%;
+        
+        margin:auto;
+        
+        display: flex;
+        
+        flex-direction: row;
+        
+        flex-wrap: wrap;
+        
+        gap: 1rem;
+        
+        
+      }
+      
+      .box {
+        
+        width: 30%;
+        
+        border: 1px black solid;
+        
+        box-shadow: 7px 6px 14px 0px rgba(0,0,0,0.52);
+        
+        
+      }
+      
+      img{
+        
+        display:block;
+        
+        width: 100%;
+        
+        height:40%;
+        
+        border:1px black solid;
+        
+        
+      }
+      
+      .box h3{
+        margin:auto;
+        
+        text-align:center;
+      }
+      
+      ul{
+        
+        background:black;
+        
+        padding: 1rem;
+        
+        list-style-position: inside;
+  
+      }
+      
+      li {
+        
+        font-size: 1.15rem;
+        
+        padding: .5rem;
+        
+        background: white;
+        
+        margin: .5rem;
+        
+        border-radius:12px;
+      }
+      
+      h3 {
+        
+        text-align:center;
+        
+        background: darkblue;
+        
+        color:white;
+        
+        padding: 1.15rem;
+        
+        font-size: 1.75rem;
+      }
+    </style>
+    
+    <!-- title tag for browser tab text -->
+    
+    <title>Shopping List v.2</title>
+  
+  </head>
+  
+  
+  <body>
+    
+    <header>
+      
+      <h1>Shopping List v.2</h1>
+      
+      <p>
+        
+        Tanvir Ahmed<br>
+        
+        November 4, 2021<br>
+        
+        Web 1, 4th Hour
+        
+      </p>
+      
+    </header>
+    
+    <nav>
+      
+      Nav Section
+      
+    </nav>
+    
+    <div class="container">
+      
+      <!-- Main page content here -->
+      
+      <!--
+      
+      Updating Shopping list
+      
+      5 Categories, Each in a box
+      
+      5 Items in a list per category
+      
+      -->
+      
+      <div class="box">
+        
+        <img src="https://www.dairyfoods.com/ext/resources/DF/2020/August/df-100/GettyImages-1194287257.jpg?1597726305" alt="Dairy">
+        
+        <h3>Dairy</h3>
+        
+        <ul>
+          
+          <li>Milk</li>
+          
+          <li>Cheese</li>
+          
+          <li>Ice-Cream</li>
+          
+          <li>Cream Cheese</li>
+          
+          <li>Yogurt</li>
+          
+        </ul>
+        
+      </div><!--End of a box -->
+      
+      <div class="box">
+        
+        <img src="https://images.ctfassets.net/3s5io6mnxfqz/5GlOYuzg0nApcehTPlbJMy/140abddf0f3f93fa16568f4d035cd5e6/AdobeStock_175165460.jpeg" alt="Beef">
+        
+        <h3>Meat</h3>
+        
+        <ul>
+          
+          <li>Beef</li>
+          
+          <li>Turkey</li>
+          
+          <li>Pork</li>
+          
+          <li>Ham</li>
+          
+          <li>Fish</li>
+          
+        </ul>
+        
+      </div><!--End of a box -->
+      
+      <div class="box">
+        
+        <img src="https://d17qo5cceyilur.cloudfront.net/IEKuwltITNeTnnqQt8ka_IMG_2170.jpg" alt="snack picture">
+        
+        <h3>Snack</h3>
+        
+        <ul>
+          
+          <li>Chips</li>
+          
+          <li>Candy</li>
+          
+          <li>Brownies</li>
+          
+          <li>Cookies</li>
+          
+          <li>Protein Bar</li>
+          
+        </ul>
+        
+      </div><!--End of a box -->
+      
+      <div class="box">
+        
+        <img src="https://www.cdc.gov/foodsafety/images/comms/features/GettyImages-1247930626-500px.jpg" alt="veggie">
+        
+        <h3>Vegetables</h3>
+        
+        <ul>
+          
+          <li>Cucumber</li>
+          
+          <li>Peppers</li>
+          
+          <li>Avacado</li>
+          
+          <li>Lettuce</li>
+          
+          <li>Tomatoe</li>
+          
+        </ul>
+        
+      </div><!--End of a box -->
+      
+      <div class="box">
+        
+        <img src="https://i.insider.com/6010817f6dfbe10018e001ae?width=700" alt="soup">
+        
+        <h3>Soup</h3>
+        
+        <ul>
+          
+          <li>Chicken Flavor Ramen</li>
+          
+          <li>Roast Beef Flavor Ramen</li>
+          
+          <li>Shrimp Flavor Ramen</li>
+          
+          <li>Regular Beef Flavor Ramen</li>
+          
+          <li>Soy Sauce Flavor Ramen</li>
+          
+        </ul>
+        
+      </div><!--End of a box -->
+      
+      
+      
+    </div>
+    
+    <footer>
+      
+      Footer
+      
+    </footer>
+    
+    
+    <!--Don't delete these but do paste them -->
+  
+  </body>
+
+</html>
