@@ -1,0 +1,497 @@
+<!doctype html>
+<html>
+  
+  <head>
+    
+    <!--Nonvisible elements in this section -->
+    
+    <!-- CSS Goes here in STYLE tags -->
+    
+    <style>
+      
+      *{
+        
+        margin: 0;
+        
+        padding: 0;
+        
+        box-sizing: border-box;
+      }
+      
+      header{
+        
+        color:black;
+        
+        background:white;
+        
+        text-align: center;
+      }
+      
+      nav {
+        
+        color:white;
+        
+        background:black;
+        
+        padding: 2vh;
+      }
+      
+      footer{
+        
+        color:white;
+        
+        background:black;
+        
+        padding: 2vh;
+        
+        height:10vh;
+      }
+      
+      .container{
+        
+        min-height:70vh;
+        
+        color:black;
+        
+        background:beige;
+        
+        padding: 2vh;
+        
+        width:80%;
+        
+        margin:auto;
+        
+      }
+      
+      .flex-container{
+        
+        display:flex;
+        
+        flex-direction:column;
+        
+      }
+      
+      .row{
+        
+        display:flex;
+        
+        flex-direction:row;
+        
+        flex-wrap:nowrap;
+        
+        background:white;
+        
+        margin:1vh auto;
+        
+        width:100%;
+      }
+      
+      .row-item{
+        
+        flex-basis:100%;
+        
+        text-align:center;
+        
+        min-height:30vh;
+        
+        margin:1vh;
+        
+        border:1px black solid;
+      }
+      
+      .row-item h3{
+        
+        padding:1.5rem;
+        
+        font-size:1.5rem;
+        
+        background:#2BB5DE;
+        
+      }
+      
+      .row-item p{
+        
+        font-size:1.15rem;
+        
+        color:black;
+        
+        padding:1rem;
+      }
+      
+      .row-movie{
+        
+        height:25vh;
+        
+        background:black;
+      }
+      
+      .flex-container h2{
+        
+        font-size:2rem;
+        
+        padding:1rem;
+      }
+      
+      .row-movie iframe{
+        
+        display:block;
+        
+        width:100%;
+        
+        height:100%;
+      }
+      
+    </style>
+    
+    <!-- title tag for browser tab text -->
+    
+    <title>Flexbox Favorite Music</title>
+  
+  </head>
+  
+  
+  <body>
+    
+    <header>
+      
+      <h1>FlexBox Rows: Favorite Music</h1>
+      
+      <p>
+        
+        Tanvir Ahmed<br>
+        
+        November 15, 2021<br>
+        
+        Web 1, 4th Hour
+        
+      </p>
+      
+    </header>
+    
+    <nav>
+      
+      Nav Section
+      
+    </nav>
+    
+    <div class="container">
+      
+      <!-- Main page content here -->
+      
+      <div class="flex-container">
+        
+        <h2>XXXTENTACION--Hip Hop/Rap</h2>
+        
+        <!--start row 1-->
+        
+        <div class="row">
+          
+          
+          <div class="row-item">
+            
+            <div class="row-movie">
+              
+              <!--iframe from youtube will go here-->
+              
+              <iframe src="https://www.youtube.com/embed/Ku4CmKxXa4s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+              
+            </div>
+            
+            <h3>HOPE</h3>
+            
+            <p>
+              
+              This song was dedicated to the victims of a harrowing mass killing. This incident occurred in February of 2018 at Stoneman Douglas High School in Parkland, Florida in which seventeen people were gunned down by a former student. This event of course shook the nation, particularly residents of the state of Florida, including XXXTentacion. He wanted to spread some positivity with all the negativity around him.
+              
+            </p>
+            
+            
+          </div><!--End row items-->
+          
+          <div class="row-item">
+            
+            <div class="row-movie">
+              
+              <!--iframe from youtube will go here-->
+              
+              <iframe src="https://www.youtube.com/embed/GX8Hg6kWQYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            
+            <h3>Moonlight</h3>
+            
+            <p>
+              
+              This song is about his girlfriend that left him and he is telling her how beautiful she by refereing her to the moon and as well as his feeling for her.
+              
+            </p>
+            
+            
+          </div><!--End row items-->
+          
+          <div class="row-item">
+            
+            <div class="row-movie">
+              
+              <!--iframe from youtube will go here-->
+              
+              <iframe src="https://www.youtube.com/embed/f0bbDFRYD_A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            
+            <h3>Changes</h3>
+            
+            <p>
+              
+              He wrote this song after his breakeup with his former girlfriend. He was seem to be very heartbroken and he expressed his feelings through the song about the changes that are occuring in his life and how he is very confused about it.
+              
+            </p>
+            
+            
+          </div><!--End row items-->
+          
+          
+        </div><!--End row-->
+        
+        <h2>Juice WRLD--HIP HOP/RAP</h2>
+        
+        <!--start row 2-->
+        
+        <div class="row">
+          
+          
+          <div class="row-item">
+            
+            <div class="row-movie">
+              
+              <!--iframe from youtube will go here-->
+              
+              <iframe src="https://www.youtube.com/embed/84Xpdw92KFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            
+            <h3>Empty</h3>
+            
+            <p>
+              
+              This song is about the rappers emptiness inside his heart and how he has made many mistakes.
+              
+            </p>
+            
+            
+          </div><!--End row items-->
+          
+          <div class="row-item">
+            
+            <div class="row-movie">
+              
+              <!--iframe from youtube will go here-->
+              
+              <iframe src="https://www.youtube.com/embed/_fh64GbFSw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            
+            <h3>Lucid Dreams</h3>
+            
+            <p>
+              
+              In this song, the rapper expresses his feelings toward his girlfriend and how lucid dreams about her.
+              
+            </p>
+            
+            
+          </div><!--End row items-->
+          
+          <div class="row-item">
+            
+            <div class="row-movie">
+              
+              <!--iframe from youtube will go here-->
+              
+              <iframe src="https://www.youtube.com/embed/h3EJICKwITw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            
+            <h3>All girls are the same</h3>
+            
+            <p>
+              
+              This song was written when the rapper was feeling sad and hurt by his relationship and he wrote this biased song about all girls based on his emotions.
+              
+            </p>
+            
+            
+          </div><!--End row items-->
+          
+          
+        </div><!--End row-->
+        
+        <h2>Arjit Singh--Indie Songs</h2>
+        
+        <!--start row 3-->
+        
+        <div class="row">
+          
+          
+          <div class="row-item">
+            
+            <div class="row-movie">
+              
+              <!--iframe from youtube will go here-->
+              
+              <iframe src="https://www.youtube.com/embed/6FURuLYrR_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            
+            <h3>Ae dil hai Mushkil</h3>
+            
+            <p>
+              
+              This song demonstrates the feelings of a person not getting things done in life. Also, his heart is broken by his crush and he is unable to do anything about it and tries to get the topic off his head by showing his passion in music.
+              
+            </p>
+            
+            
+          </div><!--End row items-->
+          
+          <div class="row-item">
+            
+            <div class="row-movie">
+              
+              <!--iframe from youtube will go here-->
+              <iframe src="https://www.youtube.com/embed/BVDqS_UxWz0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            
+            <h3>Khabijo Badol</h3>
+            
+            <p>
+              
+              This song expresses the singer's feelings toward a girl with an outstanding voice. He thinks of her as a blessing to his life and she is like the clouds in his eyes.
+              
+            </p>
+            
+            
+          </div><!--End row items-->
+          
+          <div class="row-item">
+            
+            <div class="row-movie">
+              
+              <!--iframe from youtube will go here-->
+              <iframe src="https://www.youtube.com/embed/_iktURk0X-A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            
+            <h3>Phir bi tumko Chahunga</h3>
+            
+            <p>
+              
+              This song expresses his emotions toward the girl he likes and when she went far away from him, he still wishes her back. He wants to get back the relationship he had with her.
+              
+            </p>
+            
+            
+          </div><!--End row items-->
+          
+          
+        </div><!--End row-->
+        
+        <h2>POLO G--Hip Hop/Rap</h2>
+        
+        <!--start row 4-->
+        
+        <div class="row">
+          
+          
+          <div class="row-item">
+            
+            <div class="row-movie">
+              
+              <!--iframe from youtube will go here-->
+              <iframe src="https://www.youtube.com/embed/w2IhccXakkE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            
+            <h3>Rapstar</h3>
+            
+            <p>
+              
+              Polo G sings about being GOATed, his success in hip-hop so far, personal life, and fame and fortune.
+              
+            </p>
+            
+            
+          </div><!--End row items-->
+          
+          <div class="row-item">
+            
+            <div class="row-movie">
+              
+              <!--iframe from youtube will go here-->
+              <iframe src="https://www.youtube.com/embed/YNyFAro1E5M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            
+            <h3>Martina & Gina</h3>
+            
+            <p>
+              
+              In this song, the singer is basically relating his romantic relationship with the relationship of Martin and Gina.
+              
+            </p>
+            
+            
+          </div><!--End row items-->
+          
+          <div class="row-item">
+            
+            <div class="row-movie">
+              
+              <!--iframe from youtube will go here-->
+              <iframe src="https://www.youtube.com/embed/gxXCfSN3YYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            
+            <h3>Bad man</h3>
+            
+            <p>
+              
+              This song is about the rappers criminal record and him trading it for a rapping career and he names MJ as a reference to a gun as well with teh number 45. He also pays tribute to Michael Jackson.
+              
+            </p>
+            
+            
+          </div><!--End row items-->
+          
+          
+        </div><!--End row-->
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </div><!--End flex Container -->
+      
+      
+    </div><!--closing tag for container-->
+    
+    <footer>
+      
+      Footer
+      
+    </footer>
+    
+    
+    <!--Don't delete these but do paste them -->
+  
+  </body>
+
+</html>
