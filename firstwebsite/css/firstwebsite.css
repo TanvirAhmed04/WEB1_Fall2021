@@ -211,3 +211,35 @@ footer{
   height:100%;
   opacity:1;
 }
+
+/* favorite sites*/
+            .site-item {
+              width: 30%;
+              margin: 1vh;
+              overflow: hidden;
+              transition: .5s ease;
+            }
+            .site-content {
+              display: flex;
+              flex-flow: row nowrap;
+            }
+            .site-image {
+              width: 100%;
+              overflow: hidden;
+              transition: .5s ease;
+            }
+            .site-image img {
+              width: 100%;
+            }
+            .site-description {
+              width: 0%;
+              transition: .5s ease;
+            }
+            .site-item:hover  .site-description {
+              width: 50%;
+              padding:1vh;
+              font-size: 1.15rem;
+            }
+            .site-item:hover  .site-image {
+              width: 50%;
+            }
